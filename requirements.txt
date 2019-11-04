@@ -1,0 +1,13 @@
+Flask==1.1.1
+Flask-Bootstrap==3.3.7.1
+geocoder==1.38.1
+get==2019.4.13
+Jinja2==2.10.3
+post==2019.4.13
+py==1.8.0
+pyparsing==2.4.2
+pytest==5.2.2
+query-string==2019.4.13
+requests==2.22.0
+urllib3==1.25.6
+Werkzeug==0.16.0
