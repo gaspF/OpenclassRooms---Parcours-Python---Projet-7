@@ -1,0 +1,37 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - Papy Bot </title>
+        {% else %}
+        <title> Bienvenue !</title>
+        {% endif %}
+
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+        <link href="static/css/test.css" rel="stylesheet">
+        <link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    </head>
+        <body>
+            <header>
+                <div class="container">
+                    <header class="page-header">
+                        <div id="banniere_wizard">
+                        <center><img src="{{ url_for('static', filename='img/wizard.png') }}"></center>
+                        </div>
+                </div>
+                <div class="topnav" id="myTopnav">
+                    <a href="/main">Page principale</a>
+                    <a href="mailto:fouchegaspard@gmail.com">Contact</a>
+                    <a href="/about">A propos</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+                </div>
+            </header>
+
+        {% block content %}{% endblock %}
+
+            <footer class="row">OpenclassRooms - Gaspard Fouché - 2019 - Projet 7 parcours développeur Python</footer>
+        </body>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-ZM1pmfu-rHYF2y4F80CKsERKWlGLQtQ&callback=initMap"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+</html>
