@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% set active_page = "home" %}
+{% block content %}
+<main id="chat">
+            <ul>
+                <li class="answer">
+                    <div class="speech-bubble">
+                        Bonjour mon petit ! Entre donc un lieu au sujet duquel tu aimerais connaître une histoire :
+                    </div>
+                </li>
+            </ul>
+                <div id="loading">
+                    <center><img src="{{ url_for('static', filename='img/loading.gif') }}"></center>
+                </div>
+</main>
+
+<center><div id="map" style="width: 500px; height: 400px;"></div></center>
+
+    <form class="col-md-12 form-inline">
+            <div class="form-group">
+                        <input id="user_input_id" name="text" required="required"
+                               class="lead" placeholder="Ne sois pas timide" type="text">
+                        <div class="input-group-btn"><button id="submit" class="btn btn-primary" type="submit">Demande donc au papy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </form>
+
+{% endblock %}
