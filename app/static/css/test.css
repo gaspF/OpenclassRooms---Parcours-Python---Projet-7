@@ -1,0 +1,88 @@
+body {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    #banniere_wizard
+    {
+        display: none;
+    }
+}
+
+[class*="col-"], footer {
+  background-color: white;
+  line-height: 40px;
+  text-align: center;
+}
+
+#map {
+  height: 100%;
+  display: none;
+}
+
+#address {
+display: none;}
+
+#loader {
+display: none;}
+
+#wikiHistory {
+display: none;}
+
+ul, li {
+    width: 100%;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.speech-bubble {
+	position: relative;
+    border-radius: .4em;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.answer {
+    width: 51%;
+    }
+
+.topnav {
+  background-color: #3a67c2;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+#loading {
+    display: none;
+}
+
+
+input{
+   text-align:center;
+}
