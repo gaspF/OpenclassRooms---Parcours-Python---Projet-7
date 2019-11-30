@@ -627,3 +627,7 @@ ENDQUOTELIST = [
     "Allez, réveilles-toi ! Pose moi une autre question. ",
     "C'est toute l'histoire de ma vie.",
 ]
+
+ERRORMSG = [
+    "Je suis désolé, je n'ai rien trouvé !"
+]
