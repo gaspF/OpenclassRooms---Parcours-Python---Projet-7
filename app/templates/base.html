@@ -30,7 +30,10 @@
 
         {% block content %}{% endblock %}
 
-            <footer class="row">OpenclassRooms - Gaspard Fouché - 2019 - Projet 7 parcours développeur Python</footer>
+            <footer class="row">OpenclassRooms - Gaspard Fouché - 2019 - Projet 7 parcours développeur Python<br>
+            <a href="https://www.linkedin.com/in/gaspard-izumi-fouch%C3%A9-157124180/">Profil Linkedin</a><br>
+                <a href="https://github.com/gaspF">Repository GitHub</a>
+            </footer>
         </body>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ GOOGLE_MAPS_API_KEY }}&callback=initMap"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
