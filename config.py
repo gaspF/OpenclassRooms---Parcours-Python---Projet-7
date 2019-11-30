@@ -1,6 +1,4 @@
-from googlekey import *
-
-GOOGLE_MAPS_API_KEY = KEY_G
+GOOGLE_MAPS_API_KEY = "AIzaSyA-ZM1pmfu-rHYF2y4F80CKsERKWlGLQtQ"
 
 STOP_WORDS = [
     "a",
